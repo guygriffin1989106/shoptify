@@ -1,6 +1,3 @@
-wp-shopify (WPS) is a [Vuepress](https://github.com/funkhaus/vuepress) plugin that integrates the [Shopify Storefront API](https://help.shopify.com/api/custom-storefronts/storefront-api) with Vuepress for fast and powerful store construction.
-
-You'll need both this and the [Vue plugin](https://github.com/funkhaus/wp-shopify-js) to use WP-Shopify.
 
 # Table of Contents
 
@@ -34,7 +31,7 @@ You'll need both this and the [Vue plugin](https://github.com/funkhaus/wp-shopif
     This page is accessible any time from `your-store.myshopify.com/admin/apps/private`.
 
 1.  Set up Vuepress:
-    1.  [Install Vuepress](https://github.com/funkhaus/vuepress/wiki).
+    1.  [Install Vuepress]
     1.  Download this repo and drop it into your plugins folder. Enable it through your plugin settings and then navigate to `Settings > WP-Shopify`.
     1.  Put your Shopify domain (ie `your-store.myshopify.com`) and Storefront Token from earlier into the WPS settings.
     1.  Save your changes, then click Refresh Products. Your products and collections will auto-populate from your Shopify store.
@@ -81,7 +78,7 @@ WPS imports Collections as a custom taxonomy called `wps_collection`. Each Colle
 
 # Front-End
 
-Once you've installed this plugin and synced your Shopify data to your WordPress site, head over to the [front-end Vue plugin](https://github.com/funkhaus/wp-shopify-js) to display data to the end user.
+Once you've installed this plugin and synced your Shopify data to your WordPress site, head over to the [front-end Vue plugin]() to display data to the end user.
 
 # Advanced
 
@@ -120,7 +117,7 @@ WPS comes with PHP convenience functions to check for, fetch, and display produc
 
 **wp-shopify**
 
-http://funkhaus.us
+
 
 Version: 3.0
 
